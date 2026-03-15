@@ -25,6 +25,7 @@
         <module>decorator-pattern</module>
         <module>state-pattern</module>
         <module>template-method</module>
+        <module>strategy-pattern</module>
     </modules>
 
 </project>
