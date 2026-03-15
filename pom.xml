@@ -26,6 +26,7 @@
         <module>state-pattern</module>
         <module>template-method</module>
         <module>strategy-pattern</module>
+        <module>chain-of-responsibility</module>
     </modules>
 
 </project>
