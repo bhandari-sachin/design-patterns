@@ -27,6 +27,7 @@
         <module>template-method</module>
         <module>strategy-pattern</module>
         <module>chain-of-responsibility</module>
+        <module>memento-pattern</module>
     </modules>
 
 </project>
