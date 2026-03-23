@@ -29,6 +29,7 @@
         <module>chain-of-responsibility</module>
         <module>memento-pattern</module>
         <module>proxy-pattern</module>
+        <module>visitor-pattern</module>
     </modules>
 
 </project>
