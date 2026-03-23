@@ -28,6 +28,7 @@
         <module>strategy-pattern</module>
         <module>chain-of-responsibility</module>
         <module>memento-pattern</module>
+        <module>proxy-pattern</module>
     </modules>
 
 </project>
