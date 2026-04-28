@@ -31,6 +31,7 @@
         <module>proxy-pattern</module>
         <module>visitor-pattern</module>
         <module>builder-pattern</module>
+        <module>adapter-pattern</module>
     </modules>
 
 </project>
