@@ -30,6 +30,7 @@
         <module>memento-pattern</module>
         <module>proxy-pattern</module>
         <module>visitor-pattern</module>
+        <module>builder-pattern</module>
     </modules>
 
 </project>
