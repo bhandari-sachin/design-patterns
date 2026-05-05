@@ -33,6 +33,7 @@
         <module>builder-pattern</module>
         <module>adapter-pattern</module>
         <module>prototype-pattern</module>
+        <module>mediator-pattern</module>
     </modules>
 
 </project>
