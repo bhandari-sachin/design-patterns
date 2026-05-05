@@ -36,6 +36,7 @@
         <module>mediator-pattern</module>
         <module>iterator-pattern</module>
         <module>facade-pattern</module>
+        <module>command-pattern</module>
     </modules>
 
 </project>
