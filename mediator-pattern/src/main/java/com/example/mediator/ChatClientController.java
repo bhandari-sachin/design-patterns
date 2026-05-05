@@ -1,3 +1,5 @@
+package com.example.mediator;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import java.util.List;
@@ -18,8 +20,11 @@ public class ChatClientController {
 
         titleLabel.setText("User: " + username);
 
-        recipientBox.getItems().addAll(users);
-        recipientBox.getItems().remove(username);
+        recipientBox.getItems().setAll(
+                users.stream()
+                        .filter(u -> !u.equals(username))
+                        .toList()
+        );
 
         mediator.registerClient(this);
     }
@@ -40,6 +45,8 @@ public class ChatClientController {
     }
 
     public void receiveMessage(String message) {
-        chatArea.appendText(message + "\n");
+        javafx.application.Platform.runLater(() ->
+                chatArea.appendText(message + "\n")
+        );
     }
 }

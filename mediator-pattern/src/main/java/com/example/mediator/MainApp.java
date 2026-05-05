@@ -1,3 +1,5 @@
+package com.example.mediator;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -15,7 +17,7 @@ public class MainApp extends Application {
         List<String> users = List.of("Alice", "Bob", "Charlie");
 
         for (String user : users) {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("chat.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/mediator/chat.fxml"));
             Scene scene = new Scene(loader.load());
 
             ChatClientController controller = loader.getController();

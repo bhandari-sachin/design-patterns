@@ -1,3 +1,5 @@
+package com.example.mediator;
+
 import java.util.*;
 
 public class ChatRoomMediator implements ChatMediator {
