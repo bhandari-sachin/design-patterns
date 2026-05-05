@@ -35,6 +35,7 @@
         <module>prototype-pattern</module>
         <module>mediator-pattern</module>
         <module>iterator-pattern</module>
+        <module>facade-pattern</module>
     </modules>
 
 </project>
