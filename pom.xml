@@ -32,6 +32,7 @@
         <module>visitor-pattern</module>
         <module>builder-pattern</module>
         <module>adapter-pattern</module>
+        <module>prototype-pattern</module>
     </modules>
 
 </project>
